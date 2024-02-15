@@ -7,4 +7,4 @@ apt-get update
 apt-get install -y python3 python3-pip
 
 # Install Python dependencies using pip
-pip3 install -r /var/www/html/requirements.txt
+pip3 install -r /var/www/html/requirements1.txt
