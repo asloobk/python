@@ -1,7 +1,7 @@
 asttokens==2.4.1
 blinker==1.7.0
 click==8.1.7
-cloud-init==23.3.3
+cloud-init==24.0
 colorama==0.4.6
 comm==0.2.1
 contourpy==1.2.0
