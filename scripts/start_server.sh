@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# Activate virtual environment
+source /home/ubuntu/venv/bin/activate
+
 # Change directory to the location of the Python app
 cd /home/ubuntu
 
 # Start the Flask app
-/usr/bin/python3 app.py
+/home/ubuntu/venv/bin/python app.py

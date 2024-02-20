@@ -1,5 +1,15 @@
 #!/bin/bash
+#!/bin/bash
+
+# Create virtual environment
+python3 -m venv /home/ubuntu/venv
+
+# Activate virtual environment
+source /home/ubuntu/venv/bin/activate
+
+# Change directory to the location of the Python app
 cd /home/ubuntu
+
 # Update package index
 apt-get update
 
