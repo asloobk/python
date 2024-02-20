@@ -19,4 +19,4 @@ virtualenv venv
 source venv/bin/activate
 
 # Install Python dependencies using pip
-pip3 install -r /var/www/html/requirements1.txt
+pip3 install -r /home/ubuntu/requirements.txt
