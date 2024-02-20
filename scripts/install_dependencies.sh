@@ -18,6 +18,7 @@ apt-get install -y python3 python3-pip
 
 # Change directory to the location of the Python app
 
+pip3 install Flask
 
 # Install Python dependencies using pip
 pip3 install -r /home/ubuntu/requirements1.txt
