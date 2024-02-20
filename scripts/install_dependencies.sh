@@ -19,4 +19,4 @@ virtualenv /home/ubuntu/venv
 source /home/ubuntu/venv/bin/activate
 
 # Install Python dependencies using pip
-pip3 install -r /home/ubuntu/requirements.txt
+pip3 install -r /home/ubuntu/requirements1.txt
