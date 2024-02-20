@@ -10,13 +10,26 @@ apt-get install -y python3 python3-pip
 pip3 install virtualenv
 
 # Change directory to the location of the Python app
+#!/bin/bash
+
+# Update package index
+apt-get update
+
+# Install Python and pip
+apt-get install -y python3 python3-pip
+
+# Install virtualenv
+pip3 install virtualenv
+
+# Change directory to the location of the Python app
 cd /home/ubuntu
 
 # Create a virtual environment
-virtualenv venv
+virtualenv /home/ubuntu/venv
 
 # Activate the virtual environment
-source venv/bin/activate
+source /home/ubuntu/venv/bin/activate
 
 # Install Python dependencies using pip
 pip3 install -r /home/ubuntu/requirements.txt
+
