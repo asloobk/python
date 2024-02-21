@@ -7,5 +7,5 @@ python3 -m venv my_env
 
 source my_env/bin/activate
 pip install flask
-
-python app.py  
+#mv /home/ec2-user/app.py /home/ec2-user/
+#python app.py  
