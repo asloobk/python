@@ -26,7 +26,7 @@ pip install flask
 mv /home/ec2-user/app.py /home/ec2-user/my_project/my_env/
 
 # Navigate to the virtual environment directory
-cd /home/ec2-user/my_project/my_env/
+#cd /home/ec2-user/my_project/my_env/
 
 # Run the Flask application
-python app.py
+#python app.py
