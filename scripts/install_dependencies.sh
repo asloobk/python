@@ -23,7 +23,7 @@ source my_env/bin/activate
 pip install flask
 
 # Move the app.py file to the virtual environment
-mv /home/ec2-user/app.py /home/ec2-user/my_project/my_env/
+#mv /home/ec2-user/app.py /home/ec2-user/my_project/my_env/
 
 # Navigate to the virtual environment directory
 #cd /home/ec2-user/my_project/my_env/
