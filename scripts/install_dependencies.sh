@@ -1,24 +1,11 @@
-#!/bin/bash
-#!/bin/bash
+sudo yum install python3
 
-# Create virtual environment
-python3 -m venv /home/ubuntu/venv
+sudo yum install python3-pip 
+cd  /home/ec2-user/
+mkdir my_project
+python3 -m venv my_env
 
-# Activate virtual environment
-source /home/ubuntu/venv/bin/activate
+source my_env/bin/activate
+pip install flask
 
-# Change directory to the location of the Python app
-cd /home/ubuntu
-
-# Update package index
-apt-get update
-
-# Install Python and pip
-apt-get install -y python3 python3-pip
-
-# Change directory to the location of the Python app
-
-pip3 install Flask
-
-# Install Python dependencies using pip
-pip3 install -r /home/ubuntu/requirements1.txt
+python app.py  
