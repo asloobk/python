@@ -1,1 +1,1 @@
-sudo systemctl restart my_flask_app
+ sudo systemctl restart my_flask_app.service
