@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo systemctl stop my_flask_app
 # Update system and install necessary packages
 sudo yum update -y
 sudo yum install -y python3 python3-pip
@@ -23,7 +23,7 @@ source my_env/bin/activate
 pip install flask
 
 pip install supervisor
-
+sudo systemctl start my_flask_app
 
 # Move the app.py file to the virtual environment
 #mv /home/ec2-user/app.py /home/ec2-user/my_project/my_env/
