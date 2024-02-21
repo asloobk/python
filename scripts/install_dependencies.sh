@@ -22,8 +22,6 @@ source my_env/bin/activate
 # Install Flask within the virtual environment
 pip install flask
 
-pip install supervisor
-sudo systemctl start my_flask_app
 
 # Move the app.py file to the virtual environment
 #mv /home/ec2-user/app.py /home/ec2-user/my_project/my_env/
